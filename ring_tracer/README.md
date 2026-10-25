@@ -32,7 +32,7 @@ About 1 minute per core on a laptop CPU. Outputs in `out/`:
 4. **make_labels.py**: builds the label. Ignored: outside the core, outside the annotated
    stretch, and the unknown continuation of any trace that stops before the core edge.
 
-## Settings worth knowing (top of each file)
+## Other settings
 
 * `features.py`: `SIG_TENSOR` (smoothing of the ring direction), core-edge margins in `core_band`.
 * `trace.py`: `LAMBDA` (how strictly traces follow the ring direction), `KMAX`, `EXIT`.
